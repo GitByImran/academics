@@ -43,9 +43,9 @@ const PrimaryNavbar = () => {
         }`}
       >
         <div
-          className={`nav-2 w-10/12 m-auto py-${
-            isScrolled ? 5 : 8
-          } flex items-start justify-between `}
+          className={`py-${
+            isScrolled ? "5" : "8"
+          } nav-2 w-10/12 m-auto flex items-start justify-between`}
         >
           <div className="flex items-baseline gap-10">
             <div className="text-3xl font-semibold text-blue-800">
@@ -214,3 +214,5 @@ const PrimaryNavbar = () => {
 };
 
 export default PrimaryNavbar;
+
+// todo: responsive

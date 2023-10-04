@@ -45,3 +45,5 @@ const SecondaryNavbar = () => {
 };
 
 export default SecondaryNavbar;
+
+// todo: responsive
