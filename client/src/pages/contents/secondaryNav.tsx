@@ -12,7 +12,7 @@ const SecondaryNavbar = () => {
       <div className="bg-gray-100">
         <div className="w-10/12 m-auto py-3">
           <div className="nav-1 flex justify-between items-center">
-            <div className="flex gap-5 items-center text-emerald-500">
+            <div className="lg:flex gap-5 items-center text-emerald-500 hidden">
               <Link href="" className="flex items-center gap-2">
                 <FaQuestionCircle /> Have a questions?
               </Link>
@@ -26,7 +26,7 @@ const SecondaryNavbar = () => {
                 <FiMail /> info@academics.com
               </Link>
             </div>
-            <div className="flex gap-5 items-center text-emerald-500">
+            <div className="flex gap-5 items-center justify-end lg:w-fit w-full text-emerald-500">
               <Link href="" className="flex items-center gap-2">
                 <BiLockOpenAlt /> Log in
               </Link>
