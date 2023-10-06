@@ -3,7 +3,7 @@ import { HiOutlineLibrary } from "react-icons/hi";
 import { BsMortarboard } from "react-icons/bs";
 import React from "react";
 
-const Works = () => {
+const Works: React.FC = () => {
   return (
     <div className="w-10/12 m-auto flex flex-col items-center">
       <h2 className="text-3xl font-normal border-b-4 border-b-emerald-500 w-fit capitalize">

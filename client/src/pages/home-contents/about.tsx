@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const About = () => {
+const About: React.FC = () => {
   return (
     <div className="bg-cyan-800">
       <div className="w-10/12 m-auto flex lg:flex-row flex-col items-start gap-10 py-20">

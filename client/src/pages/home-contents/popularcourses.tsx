@@ -89,7 +89,7 @@ const popularCourses = [
   },
 ];
 
-const PopularCourses = () => {
+const PopularCourses: React.FC = () => {
   return (
     <div>
       <div>
