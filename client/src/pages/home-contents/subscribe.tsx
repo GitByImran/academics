@@ -35,7 +35,7 @@ const Subscribe: React.FC = () => {
                       type="email"
                       className="h-14 w-9/12 py-1 px-5 outline-none rounded-s-lg"
                     />
-                    <button className="h-14 w-3/12 text-lg text-white bg-emerald-500 rounded-e-lg">
+                    <button className="h-14 w-3/12 text-lg text-white bg-emerald-500 rounded-r-lg">
                       Send
                     </button>
                   </form>

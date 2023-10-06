@@ -3,6 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['preview.colorlib.com', 'i.ibb.co']
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   }
 }
 

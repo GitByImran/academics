@@ -89,7 +89,7 @@ const Testimonials: React.FC = () => {
               <div className="bg-gray-100 p-6 rounded-lg my-10">
                 <div className="h-10 w-10 overflow-hidden rounded-full mb-2">
                   <Image
-                    src={person.image ? person.image : ""}
+                    src={person.image}
                     alt=""
                     height={100}
                     width={100}
