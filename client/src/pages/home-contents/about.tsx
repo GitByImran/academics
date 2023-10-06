@@ -3,7 +3,7 @@ import React from "react";
 
 const About: React.FC = () => {
   return (
-    <div className="bg-cyan-800">
+    <div style={{ background: "#183661" }}>
       <div className="w-10/12 m-auto flex lg:flex-row flex-col items-start gap-10 py-20">
         <div>
           <h2 className="text-3xl text-white py-1 font-normal border-b-4 border-b-emerald-500 w-max capitalize">

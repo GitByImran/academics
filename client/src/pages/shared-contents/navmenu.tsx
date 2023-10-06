@@ -2,6 +2,7 @@ import { RxCross2 } from "react-icons/rx";
 import Link from "next/link";
 import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
+import Image from "next/image";
 
 interface NavmenuProps {
   handleToggle: () => void;
@@ -25,8 +26,15 @@ const Navmenu: React.FC<NavmenuProps> = ({
 
   return (
     <div>
-      <div className="flex items-baseline gap-10">
-        <div className="text-3xl font-semibold text-blue-800">Academics</div>
+      <div className="flex items-center gap-10">
+        <div className="">
+          <Image
+            src="/nav-logo.png"
+            alt="nav-logo"
+            height={100}
+            width={150}
+          ></Image>
+        </div>
         <div
           className={`${
             showMenu &&

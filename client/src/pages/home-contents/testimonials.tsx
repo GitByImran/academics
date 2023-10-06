@@ -97,8 +97,8 @@ const Testimonials: React.FC = () => {
                   />
                 </div>
                 <h3 className="text-xl font-semibold">{person.name}</h3>
-                <p className="text-md text-gray-600 mb-2">{person.role}</p>
-                <p className="text-lg text-gray-500 font-semibold">
+                <p className="text-md text-gray-600 mb-5">{person.role}</p>
+                <p className="text-lg text-gray-500 font-normal">
                   {person.testimonial}
                 </p>
               </div>
