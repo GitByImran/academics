@@ -5,7 +5,7 @@ import React from "react";
 
 const Works: React.FC = () => {
   return (
-    <div className="w-10/12 m-auto flex flex-col items-center">
+    <div className="w-10/12 m-auto flex flex-col items-center my-20">
       <h2 className="text-3xl font-normal border-b-4 border-b-emerald-500 w-fit capitalize">
         how academics works
       </h2>

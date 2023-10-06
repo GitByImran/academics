@@ -7,7 +7,7 @@ const Footer = () => {
     <div style={{ background: "#183661" }}>
       <div className="w-10/12 m-auto py-20">
         <div className="grid grid-cols-12 gap-3">
-          <div className="col-span-3 text-white flex flex-col gap-5">
+          <div className="col-span-12 sm:col-span-6 md:col-span-3 text-white flex flex-col gap-5">
             <div className="">
               <Image
                 src="/footer-logo.png"
@@ -24,7 +24,7 @@ const Footer = () => {
               Learn More
             </Link>
           </div>
-          <div className="col-span-3">
+          <div className="col-span-12 sm:col-span-6 md:col-span-3">
             <h2 className="text-lg text-white border-b-4 border-b-white w-fit mb-5">
               Our Services
             </h2>
@@ -49,7 +49,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-span-3">
+          <div className="col-span-12 sm:col-span-6 md:col-span-3">
             <h2 className="text-lg text-white border-b-4 border-b-white w-fit mb-5">
               Our Courses
             </h2>
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-span-3">
+          <div className="col-span-12 sm:col-span-6 md:col-span-3">
             <h2 className="text-lg text-white border-b-4 border-b-white w-fit mb-5">
               Contact
             </h2>

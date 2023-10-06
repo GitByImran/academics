@@ -19,6 +19,9 @@ body {
 .swiper-button-next {
   display: none !important;
 }
+span.swiper-pagination-bullet {
+  background: #fff;
+}
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #10b981;
 }
