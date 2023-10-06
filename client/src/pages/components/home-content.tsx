@@ -9,12 +9,12 @@ import PopularCourses from "../home-contents/popularcourses";
 const HomeContent: React.FC = () => {
   return (
     <div>
-      <Works />
+      {/* <Works />
       <About />
       <PopularCourses />
       <Goal />
       <Testimonials />
-      <Subscribe />
+      <Subscribe /> */}
     </div>
   );
 };
