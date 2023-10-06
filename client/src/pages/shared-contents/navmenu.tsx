@@ -30,7 +30,7 @@ const Navmenu: React.FC<NavmenuProps> = ({
         <div
           className={`${
             showMenu &&
-            "absolute z-10 top-0 bottom-0 right-0 w-6/12 p-5 shadow-lg bg-white"
+            "absolute z-50 top-0 bottom-0 right-0 h-screen w-6/12 p-5 shadow-lg bg-white"
           } lg:relative lg:shadow-none`}
         >
           {showMenu && (
@@ -47,11 +47,11 @@ const Navmenu: React.FC<NavmenuProps> = ({
             ${showMenu ? "lg:gap-10" : "lg:gap-6"}`}
           >
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
-              Home
+              <Link href="/components/home">Home</Link>
             </li>
             <li className="relative p-2  lg:py-0 lg:hover:bg-none">
               <div onClick={toggleAboutUs} className="flex items-center gap-1">
-                About Us{" "}
+                <Link href="#">About Us</Link>
                 <span className={`${isOpen ? "rotate-180" : "rotate-0"}`}>
                   <IoIosArrowDown />
                 </span>
@@ -72,13 +72,13 @@ const Navmenu: React.FC<NavmenuProps> = ({
               )}
             </li>
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
-              Admission
+              <Link href="/components/admission">Admission</Link>
             </li>
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
-              Course
+              <Link href="#">Course</Link>
             </li>
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
-              Contact
+              <Link href="#">Contact</Link>
             </li>
           </ul>
         </div>

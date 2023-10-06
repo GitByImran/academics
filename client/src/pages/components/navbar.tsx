@@ -1,6 +1,6 @@
 import React from "react";
-import PrimaryNavbar from "../contents/primaryNav";
-import SecondaryNavbar from "../contents/secondaryNav";
+import PrimaryNavbar from "../shared-contents/primaryNav";
+import SecondaryNavbar from "../shared-contents/secondaryNav";
 
 const Navbar = () => {
   return (

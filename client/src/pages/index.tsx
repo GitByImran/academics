@@ -1,13 +1,12 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import Root from "./root-layout/root";
+import HomeContent from "./components/home-content";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div>
-      <Root />
+      <HomeContent />
     </div>
   );
 }

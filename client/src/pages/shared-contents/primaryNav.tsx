@@ -39,7 +39,7 @@ const PrimaryNavbar: React.FC = () => {
       <div
         className={`${
           isScrolled
-            ? "fixed top-0 left-0 right-0 z-10 bg-white scroll-smooth"
+            ? "fixed top-0 left-0 right-0 z-50 bg-white scroll-smooth"
             : ""
         }`}
       >

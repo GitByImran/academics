@@ -7,3 +7,12 @@
 .nav-menu > li {
   cursor: pointer;
 }
+
+/* testimonial > home-contents */
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #10b981;
+}
