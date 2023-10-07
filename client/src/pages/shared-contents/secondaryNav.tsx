@@ -5,6 +5,7 @@ import { IoMdCall } from "react-icons/io";
 import { FaQuestionCircle } from "react-icons/fa";
 import Link from "next/link";
 import React from "react";
+import Locator from "./locator";
 
 const SecondaryNavbar = () => {
   return (
@@ -25,6 +26,9 @@ const SecondaryNavbar = () => {
               >
                 <FiMail /> info@academics.com
               </Link>
+            </div>
+            <div className="hidden">
+              <Locator />
             </div>
             <div className="flex gap-5 items-center justify-end lg:w-fit w-full text-emerald-500">
               <Link href="" className="flex items-center gap-2">

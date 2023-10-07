@@ -29,7 +29,7 @@ const carouselData = [
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 const Banner = () => {
-  const swiperHeight = 700; // Set your desired height
+  const swiperHeight = 700;
 
   return (
     <div>
@@ -52,10 +52,10 @@ const Banner = () => {
               backgroundColor: "rgba(0,0,0,0.8)",
               backgroundBlendMode: "multiply",
               overflow: "hidden",
-              height: `${swiperHeight}px`, // Set the height dynamically
+              height: `${swiperHeight}px`,
             }}
           >
-            <div className="carousel-content pt-40 text-white w-10/12 h-full m-auto text-center flex flex-col justify-center items-center gap-10">
+            <div className="carousel-content  text-white w-10/12 h-full m-auto text-center flex flex-col justify-center items-center gap-10">
               <p className="text-5xl md:w-9/12 w-full">{slide.description}</p>
               <button className="border px-5 py-2 rounded-md hover:bg-emerald-500 delay-200 transition-opacity">
                 {slide.buttonName}

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../shared-contents/footer";
 
-const Root = ({ children }: { children: React.ReactNode }) => {
+const Root: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div>
       <Navbar />

@@ -30,7 +30,7 @@ const Works: React.FC = () => {
             <MdOutlineVideoLibrary />
           </div>
           <div className="flex flex-col gap-2 items-center border pt-14 p-5 text-center">
-            <h2 className="text-xl">Personalize Learning</h2>
+            <h2 className="text-xl">Trusted Courses</h2>
             <p className="text-xl text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi
               hendrerit elit
@@ -45,7 +45,7 @@ const Works: React.FC = () => {
             <HiOutlineLibrary />
           </div>
           <div className="flex flex-col gap-2 items-center border pt-14 p-5 text-center">
-            <h2 className="text-xl">Personalize Learning</h2>
+            <h2 className="text-xl">Tools for Students</h2>
             <p className="text-xl text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi
               hendrerit elit

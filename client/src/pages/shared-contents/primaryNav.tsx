@@ -23,7 +23,7 @@ const PrimaryNavbar: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrolled = window.scrollY > 0;
+      const scrolled = window.scrollY > 50;
       setIsScrolled(scrolled);
     };
 

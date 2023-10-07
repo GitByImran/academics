@@ -16,6 +16,7 @@ const Navmenu: React.FC<NavmenuProps> = ({
   setShowMenu,
 }) => {
   const [isOpen, setOpen] = useState(false);
+
   const toggleAboutUs = () => {
     setOpen(!isOpen);
   };
@@ -24,8 +25,12 @@ const Navmenu: React.FC<NavmenuProps> = ({
     setShowMenu(false);
   };
 
+  const closeDropdown = () => {
+    setOpen(false);
+  };
+
   return (
-    <div>
+    <div className="bg-white">
       <div className="flex items-center gap-10">
         <div className="">
           <Image
@@ -67,20 +72,20 @@ const Navmenu: React.FC<NavmenuProps> = ({
               {isOpen && (
                 <ul
                   className={`submenu ${
-                    showMenu ? " relative block top-2" : "absolute top-10"
+                    showMenu ? " relative block top-2" : "absolute top-10 z-50"
                   } lg:rounded-bl-lg lg:rounded-br-lg lg:shadow-lg left-0 lg:w-48 w-ful bg-white border-t-2 border-emerald-500 overflow-hidden`}
                 >
-                  <li className="p-2 hover:bg-gray-100">
-                    <Link href="#">Our Teachers</Link>
+                  <li className="p-2 hover:bg-gray-100" onClick={closeDropdown}>
+                    <Link href="/components/about-teacher">Our Teachers</Link>
                   </li>
-                  <li className="p-2 hover:bg-gray-100">
-                    <Link href="#">Our School</Link>
+                  <li className="p-2 hover:bg-gray-100" onClick={closeDropdown}>
+                    <Link href="/components/about-school">Our School</Link>
                   </li>
                 </ul>
               )}
             </li>
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
-              <Link href="/components/admission">Admission</Link>
+              <Link href="#">Admission</Link>
             </li>
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
               <Link href="#">Course</Link>
