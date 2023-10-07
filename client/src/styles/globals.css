@@ -20,7 +20,7 @@ body {
   display: none !important;
 }
 span.swiper-pagination-bullet {
-  background: #fff;
+  background: #838383;
 }
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #10b981;

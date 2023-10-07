@@ -60,7 +60,7 @@ const Navmenu: React.FC<NavmenuProps> = ({
             ${showMenu ? "lg:gap-10" : "lg:gap-6"}`}
           >
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
-              <Link href="/components/home">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="relative p-2  lg:py-0 lg:hover:bg-none">
               <div onClick={toggleAboutUs} className="flex items-center gap-1">
