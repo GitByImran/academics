@@ -62,9 +62,9 @@ const Navmenu: React.FC<NavmenuProps> = ({
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
               <Link href="/">Home</Link>
             </li>
-            <li className="relative p-2  lg:py-0 lg:hover:bg-none">
+            <li className="relative p-2  lg:py-0 hover:bg-none">
               <div onClick={toggleAboutUs} className="flex items-center gap-1">
-                <Link href="#">About Us</Link>
+                <Link href="">About Us</Link>
                 <span className={`${isOpen ? "rotate-180" : "rotate-0"}`}>
                   <IoIosArrowDown />
                 </span>
@@ -85,13 +85,13 @@ const Navmenu: React.FC<NavmenuProps> = ({
               )}
             </li>
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
-              <Link href="#">Admission</Link>
+              <Link href="/components/admission">Admission</Link>
             </li>
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
-              <Link href="#">Course</Link>
+              <Link href="/components/courses">Course</Link>
             </li>
             <li className="p-2 hover:bg-gray-100 lg:py-0 lg:hover:bg-none">
-              <Link href="#">Contact</Link>
+              <Link href="/components/contact">Contact</Link>
             </li>
           </ul>
         </div>
