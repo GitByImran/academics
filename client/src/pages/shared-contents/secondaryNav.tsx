@@ -31,11 +31,11 @@ const SecondaryNavbar = () => {
               <Locator />
             </div>
             <div className="flex gap-5 items-center justify-end lg:w-fit w-full text-emerald-500">
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/auth/login" className="flex items-center gap-2">
                 <BiLockOpenAlt /> Log in
               </Link>
               <Link
-                href=""
+                href="/auth/register"
                 className="text-md bg-emerald-500 text-white font-semibold px-6 py-2 flex items-center gap-1"
               >
                 <BsPersonFillAdd /> Register

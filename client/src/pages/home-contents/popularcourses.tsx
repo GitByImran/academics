@@ -52,7 +52,7 @@ const PopularCourses: React.FC = () => {
                         <p className="text-emerald-500 font-semibold">
                           {details.courseReview} stars
                         </p>
-                        <p className="text-lg">{details.coursePrice}</p>
+                        <p className="text-lg">$ {details.coursePrice}</p>
                       </div>
                       <button className="text-md bg-emerald-500 text-white font-semibold px-6 py-2 mt-5 w-full rounded-md gap-1">
                         add to cart
