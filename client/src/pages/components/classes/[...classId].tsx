@@ -3,137 +3,16 @@ import { HiOutlineInformationCircle } from "react-icons/hi";
 import { MdVideoLibrary } from "react-icons/md";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { useProvider } from "@/pages/context/Provider";
 
-const teachersData = [
-  {
-    id: 1,
-    name: "John Smith",
-    position: "Mathematics Teacher",
-    experience: "10 years",
-    students: 70,
-    quote: "Teaching is not just my profession; it's my passion.",
-    coursesTaught: ["Algebra", "Geometry", "Calculus"],
-    playlist: [
-      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
-      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
-      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
-      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
-      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
-      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
-      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
-      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t",
-    ],
-  },
-  {
-    id: 2,
-    name: "Laura Davis",
-    position: "History Teacher",
-    experience: "11 years",
-    students: 70,
-    quote: "Exploring the past to understand the present and shape the future.",
-    coursesTaught: ["World History", "U.S. History", "Ancient Civilizations"],
-    playlist: [
-      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
-      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
-      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
-      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
-      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
-      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
-      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
-      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t",
-    ],
-  },
-  {
-    id: 3,
-    name: "Elena Rodriguez",
-    position: "English Literature Professor",
-    experience: "12 years",
-    students: 70,
-    quote: "Literature has the power to change hearts and minds.",
-    coursesTaught: [
-      "American Literature",
-      "British Literature",
-      "World Literature",
-    ],
-    playlist: [
-      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
-      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
-      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
-      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
-      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
-      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
-      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
-      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t",
-    ],
-  },
-  {
-    id: 4,
-    name: "Michael Chang",
-    position: "Computer Science Educator",
-    experience: "9 years",
-    students: 70,
-    quote: "Navigating the world of coding with enthusiasm and expertise.",
-    coursesTaught: [
-      "Introduction to Programming",
-      "Web Development",
-      "Data Structures",
-    ],
-    playlist: [
-      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
-      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
-      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
-      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
-      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
-      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
-      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
-      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t",
-    ],
-  },
-  {
-    id: 5,
-    name: "Alice Johnson",
-    position: "Science Instructor",
-    experience: "8 years",
-    students: 70,
-    quote: "Inspiring young minds to explore the wonders of science.",
-    coursesTaught: ["Biology", "Chemistry", "Physics"],
-    playlist: [
-      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
-      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
-      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
-      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
-      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
-      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
-      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
-      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t",
-    ],
-  },
-  {
-    id: 6,
-    name: "Robert Taylor",
-    position: "Art and Design Instructor",
-    experience: "7 years",
-    students: 70,
-    quote: "Unleashing creativity through the strokes of art.",
-    coursesTaught: ["Drawing", "Painting", "Graphic Design"],
-    playlist: [
-      "0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
-      "g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
-      "pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
-      "mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
-      "_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
-      "ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
-      "MJzbJQLGehs?si=OrosUmEflS--MlH4",
-      "FHTbsZEJspU?si=Vj1a87pFNNMAW76t",
-    ],
-  },
-];
+const ClassesPage: React.FC = () => {
+  const { data } = useProvider();
 
-const ClassesPage = () => {
   const router = useRouter();
   const { classId } = router.query;
-  console.log(router.query);
-  const teacher = teachersData.find((t) => t.id === Number(classId));
+  const teacher = data.find((t) => t.id === Number(classId));
+
+  console.log(teacher);
 
   if (!teacher) {
     return <div>Teacher not found</div>;
@@ -161,8 +40,8 @@ const ClassesPage = () => {
               />
             </div>
             <div>
-              <h2 className="text-2xl font-semibold">{teacher.name}</h2>
-              <p className="text-gray-500">{teacher.position}</p>
+              <h2 className="text-2xl font-semibold">{teacher.teacher.name}</h2>
+              <p className="text-gray-500">{teacher.teacher.position}</p>
             </div>
           </div>
           <div>
@@ -181,7 +60,7 @@ const ClassesPage = () => {
                   <span>
                     <BiGroup />
                   </span>
-                  {teacher.students} students
+                  {teacher.enrolled_students} Students
                 </p>
               </div>
             </div>

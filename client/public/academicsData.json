@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "teacher": {
+      "name": "John Smith",
+      "experience": "10 years",
+      "position": "Computer Science Educator"
+    },
+    "course": {
+      "name": "Introduction to Programming",
+      "duration": "8 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Monday",
+      "weekly_class_hour": "2:00 PM"
+    },
+    "enrolled_students": 30,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.5,
+    "courseFeedback": "Comprehensive content and excellent instructor. Worth the investment!",
+    "coursePrice": 129.99
+  },
+  {
+    "id": 2,
+    "teacher": {
+      "name": "Alice Johnson",
+      "experience": "8 years",
+      "position": "Web Development Instructor"
+    },
+    "course": {
+      "name": "Web Development Basics Fundamentals",
+      "duration": "12 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Wednesday",
+      "weekly_class_hour": "3:30 PM"
+    },
+    "enrolled_students": 30,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.8,
+    "courseFeedback": "Great course! Very informative and well-structured.",
+    "coursePrice": 149.99
+  },
+  {
+    "id": 3,
+    "teacher": {
+      "name": "Robert Davis",
+      "experience": "12 years",
+      "position": "Data Structures and Algorithms Professor"
+    },
+    "course": {
+      "name": "Data Structures and Algorithms",
+      "duration": "10 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Tuesday",
+      "weekly_class_hour": "10:00 AM"
+    },
+    "enrolled_students": 30,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.1,
+    "courseFeedback": "Challenging but rewarding. The professor explains concepts really well.",
+    "coursePrice": 139.99
+  },
+  {
+    "id": 4,
+    "teacher": {
+      "name": "Elena Martinez",
+      "experience": "7 years",
+      "position": "Machine Learning Fundamentals Instructor"
+    },
+    "course": {
+      "name": "Machine Learning Fundamentals",
+      "duration": "10 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Thursday",
+      "weekly_class_hour": "1:00 PM"
+    },
+    "enrolled_students": 30,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.6,
+    "courseFeedback": "Interesting and well-organized. Would recommend to anyone interested in ML.",
+    "coursePrice": 159.99
+  },
+  {
+    "id": 5,
+    "teacher": {
+      "name": "Sophie Anderson",
+      "experience": "9 years",
+      "position": "UX/UI Design Expert"
+    },
+    "course": {
+      "name": "Introduction to UX/UI Design",
+      "duration": "8 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Friday",
+      "weekly_class_hour": "2:30 PM"
+    },
+    "enrolled_students": 25,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.3,
+    "courseFeedback": "Insightful course with practical design exercises. Enjoyed every class!",
+    "coursePrice": 119.99
+  },
+  {
+    "id": 6,
+    "teacher": {
+      "name": "Daniel Brown",
+      "experience": "11 years",
+      "position": "Cybersecurity Expert"
+    },
+    "course": {
+      "name": "Cybersecurity Fundamentals",
+      "duration": "10 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Saturday",
+      "weekly_class_hour": "11:00 AM"
+    },
+    "enrolled_students": 20,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.7,
+    "courseFeedback": "In-depth coverage of cybersecurity concepts. Highly recommended for beginners!",
+    "coursePrice": 179.99
+  },
+  {
+    "id": 7,
+    "teacher": {
+      "name": "Emily Rodriguez",
+      "experience": "8 years",
+      "position": "Digital Marketing Specialist"
+    },
+    "course": {
+      "name": "Digital Marketing Strategies",
+      "duration": "6 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Wednesday",
+      "weekly_class_hour": "3:00 PM"
+    },
+    "enrolled_students": 30,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.5,
+    "courseFeedback": "Practical insights into digital marketing strategies. Great for beginners and intermediate learners!",
+    "coursePrice": 99.99
+  },
+  {
+    "id": 8,
+    "teacher": {
+      "name": "Alex Turner",
+      "experience": "10 years",
+      "position": "Machine Learning Engineer"
+    },
+    "course": {
+      "name": "Machine Learning Fundamentals",
+      "duration": "12 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Monday",
+      "weekly_class_hour": "6:00 PM"
+    },
+    "enrolled_students": 25,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.8,
+    "courseFeedback": "Comprehensive course on machine learning fundamentals. Challenging yet rewarding!",
+    "coursePrice": 199.99
+  },
+  {
+    "id": 9,
+    "teacher": {
+      "name": "Sophia Chen",
+      "experience": "7 years",
+      "position": "Cybersecurity Analyst"
+    },
+    "course": {
+      "name": "Cybersecurity Essentials",
+      "duration": "8 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Thursday",
+      "weekly_class_hour": "5:30 PM"
+    },
+    "enrolled_students": 20,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.7,
+    "courseFeedback": "Highly informative course on cybersecurity essentials. Practical exercises make it engaging!",
+    "coursePrice": 149.99
+  },
+  {
+    "id": 10,
+    "teacher": {
+      "name": "Carlos Rodriguez",
+      "experience": "9 years",
+      "position": "Data Scientist"
+    },
+    "course": {
+      "name": "Data Science with Python",
+      "duration": "10 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Tuesday",
+      "weekly_class_hour": "7:00 PM"
+    },
+    "enrolled_students": 35,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.9,
+    "courseFeedback": "In-depth coverage of data science using Python. Excellent for those diving into the field!",
+    "coursePrice": 179.99
+  },
+  {
+    "id": 11,
+    "teacher": {
+      "name": "Emily Johnson",
+      "experience": "8 years",
+      "position": "UX/UI Designer"
+    },
+    "course": {
+      "name": "User Experience Design Fundamentals",
+      "duration": "6 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Wednesday",
+      "weekly_class_hour": "6:00 PM"
+    },
+    "enrolled_students": 25,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.8,
+    "courseFeedback": "Practical and insightful course on UX/UI design. The hands-on projects are beneficial!",
+    "coursePrice": 129.99
+  },
+  {
+    "id": 12,
+    "teacher": {
+      "name": "Alex Turner",
+      "experience": "10 years",
+      "position": "Machine Learning Engineer"
+    },
+    "course": {
+      "name": "Machine Learning for Beginners",
+      "duration": "12 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Friday",
+      "weekly_class_hour": "4:00 PM"
+    },
+    "enrolled_students": 40,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.7,
+    "courseFeedback": "A comprehensive introduction to machine learning. The instructor explains complex concepts clearly!",
+    "coursePrice": 199.99
+  },
+  {
+    "id": 13,
+    "teacher": {
+      "name": "Sarah Mitchell",
+      "experience": "12 years",
+      "position": "Data Scientist"
+    },
+    "course": {
+      "name": "Data Science Masterclass",
+      "duration": "10 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Tuesday",
+      "weekly_class_hour": "7:00 PM"
+    },
+    "enrolled_students": 35,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.9,
+    "courseFeedback": "An excellent course covering the entire data science workflow. Highly recommended!",
+    "coursePrice": 149.99
+  },
+  {
+    "id": 14,
+    "teacher": {
+      "name": "John Baker",
+      "experience": "9 years",
+      "position": "Full Stack Developer"
+    },
+    "course": {
+      "name": "Full Stack Web Development Bootcamp",
+      "duration": "8 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Thursday",
+      "weekly_class_hour": "5:30 PM"
+    },
+    "enrolled_students": 30,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.7,
+    "courseFeedback": "A hands-on bootcamp that covers both frontend and backend development. Great instructor!",
+    "coursePrice": 179.99
+  },
+  {
+    "id": 15,
+    "teacher": {
+      "name": "Emily Rodriguez",
+      "experience": "8 years",
+      "position": "UX/UI Designer"
+    },
+    "course": {
+      "name": "UX/UI Design Fundamentals",
+      "duration": "6 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Wednesday",
+      "weekly_class_hour": "6:00 PM"
+    },
+    "enrolled_students": 25,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.8,
+    "courseFeedback": "Practical and insightful course on UX/UI design. The instructor provides valuable real-world examples.",
+    "coursePrice": 129.99
+  },
+  {
+    "id": 16,
+    "teacher": {
+      "name": "Michael Turner",
+      "experience": "10 years",
+      "position": "Cybersecurity Expert"
+    },
+    "course": {
+      "name": "Cybersecurity Essentials",
+      "duration": "7 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Monday",
+      "weekly_class_hour": "8:00 PM"
+    },
+    "enrolled_students": 20,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.6,
+    "courseFeedback": "In-depth coverage of cybersecurity concepts. Practical labs make learning engaging and effective.",
+    "coursePrice": 159.99
+  },
+  {
+    "id": 17,
+    "teacher": {
+      "name": "Sophia Lee",
+      "experience": "9 years",
+      "position": "Data Scientist"
+    },
+    "course": {
+      "name": "Machine Learning for Beginners",
+      "duration": "8 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Thursday",
+      "weekly_class_hour": "7:00 PM"
+    },
+    "enrolled_students": 30,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.9,
+    "courseFeedback": "An excellent introduction to machine learning. The hands-on projects are highly valuable.",
+    "coursePrice": 149.99
+  },
+  {
+    "id": 18,
+    "teacher": {
+      "name": "David Smith",
+      "experience": "12 years",
+      "position": "Digital Marketing Specialist"
+    },
+    "course": {
+      "name": "Digital Marketing Mastery",
+      "duration": "10 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Tuesday",
+      "weekly_class_hour": "6:30 PM"
+    },
+    "enrolled_students": 25,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.7,
+    "courseFeedback": "A comprehensive course on digital marketing strategies and tools. Highly recommended for marketers.",
+    "coursePrice": 179.99
+  },
+  {
+    "id": 19,
+    "teacher": {
+      "name": "Rachel Carter",
+      "experience": "8 years",
+      "position": "UX/UI Designer"
+    },
+    "course": {
+      "name": "User Experience Design Fundamentals",
+      "duration": "6 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Monday",
+      "weekly_class_hour": "5:00 PM"
+    },
+    "enrolled_students": 20,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.8,
+    "courseFeedback": "A well-structured course that provides practical insights into UX/UI design principles. Great for beginners!",
+    "coursePrice": 129.99
+  },
+  {
+    "id": 20,
+    "teacher": {
+      "name": "Jonathan Turner",
+      "experience": "10 years",
+      "position": "Full-Stack Developer"
+    },
+    "course": {
+      "name": "Full-Stack Web Development Bootcamp",
+      "duration": "12 weeks"
+    },
+    "schedule": {
+      "weekly_class_day": "Wednesday",
+      "weekly_class_hour": "6:00 PM"
+    },
+    "enrolled_students": 35,
+    "playlist": [
+      "https://youtu.be/0fYi8SGA20k?si=O_dJq_YiBtd0JM_Z",
+      "https://youtu.be/g7T23Xzys-A?si=1t4DFZcbXeEIxYbT",
+      "https://youtu.be/pUNSHPyVryU?si=LBaJuGDssoxHtwCE",
+      "https://youtu.be/mJ3bGvy0WAY?si=X1WdIOpp8jHFJdBl",
+      "https://youtu.be/_ivIUCSOZ78?si=IeZqjGb-mEuFsaZi",
+      "https://youtu.be/ugCN_gynFYw?si=96Sr-TqQ6P8UJjLC",
+      "https://youtu.be/MJzbJQLGehs?si=OrosUmEflS--MlH4",
+      "https://youtu.be/FHTbsZEJspU?si=Vj1a87pFNNMAW76t"
+    ],
+    "courseReview": 4.9,
+    "courseFeedback": "An intensive bootcamp covering both front-end and back-end development. Highly recommended for aspiring full-stack developers.",
+    "coursePrice": 199.99
+  }
+]
