@@ -35,26 +35,32 @@ const PopularCourses: React.FC = () => {
               },
             }}
           >
-            {data.map((details, index) => (
-              <SwiperSlide key={index}>
-                <div className="bg-gray-100 p-6 rounded-lg my-10">
-                  <h3 className="text-xl font-semibold">
-                    {details.course.name}
-                  </h3>
-                  <p className="text-lg">{/*title */}</p>
-                  <p className="text-gray-700 mt-4">{details.courseFeedback}</p>
-                  <div className="flex justify-between items-center mt-6">
-                    <p className="text-emerald-500 font-semibold">
-                      {details.courseReview} stars
-                    </p>
-                    <p className="text-lg">{details.coursePrice}</p>
-                  </div>
-                  <button className="text-md bg-emerald-500 text-white font-semibold px-6 py-2 mt-5 w-full rounded-md gap-1">
-                    add to cart
-                  </button>
-                </div>
-              </SwiperSlide>
-            ))}
+            {data.map(
+              (details, index) =>
+                // Conditionally render only if courseReview is >= 4.2
+                parseFloat(details.courseReview) >= 4.5 && (
+                  <SwiperSlide key={index}>
+                    <div className="bg-gray-100 p-6 rounded-lg my-10">
+                      <h3 className="text-xl font-semibold">
+                        {details.course.name}
+                      </h3>
+                      <p className="text-lg">{/*title */}</p>
+                      <p className="text-gray-700 mt-4">
+                        {details.courseFeedback}
+                      </p>
+                      <div className="flex justify-between items-center mt-6">
+                        <p className="text-emerald-500 font-semibold">
+                          {details.courseReview} stars
+                        </p>
+                        <p className="text-lg">{details.coursePrice}</p>
+                      </div>
+                      <button className="text-md bg-emerald-500 text-white font-semibold px-6 py-2 mt-5 w-full rounded-md gap-1">
+                        add to cart
+                      </button>
+                    </div>
+                  </SwiperSlide>
+                )
+            )}
           </Swiper>
         </div>
       </div>
